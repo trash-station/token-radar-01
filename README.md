@@ -1,6 +1,10 @@
 # Token Radar — make.fun bounty token-radar-01
 
-Build-only entry for account @trash-station. **Not submitted yet.**
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/trash-station/token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/trash-station/token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
+Build-only entry for account @trash-station. **Being submitted.**
 
 ## What this is
 
@@ -118,3 +122,5 @@ Top 10 by implied value:
 - No secrets, API keys, or keypair material are in this directory.
 - No promotional text for any external service is included anywhere
   in the entry.
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>

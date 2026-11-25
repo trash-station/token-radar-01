@@ -37,10 +37,15 @@ implied = round( tvl_usd x 0.20
   `dossier.json` via `vendor/makefun-board.ts`.
 - `lib/model.ts` — the model, board builder, farm-plan generator.
 - `dashboard/` — static page, no network: `index.html`, `app.css`,
-  `app.js` (33,397 bytes total, under the 64 KB cap). Sortable by rank /
-  name / TVL / growth / age, searchable, filterable by category and chain,
-  watchlist-only toggle, pre-token vs live-token tabs, detail drawer per
-  protocol with the model inputs recomputed in-page and the 6-step farm plan.
+  `app.js` (31,359 bytes total, under the 64 KB cap). Mixed design: the
+  token table is the full old table (rank, name, TVL, 7-day change, age,
+  implied value with its bar, token status — a star marks the watchlist —
+  sortable on every column), while the filter stays the simple new one
+  (one search box and one category menu). Tap any row and a detail view
+  opens with everything that matters — TVL, 7-day change, listed date and
+  age, all chains, the three model factors with the full formula, the
+  recomputed value check, and the 6-step farm plan. A single link reaches
+  the 24 live-token protocols, kept out of the ranking.
 - `vendor/makefun-board.ts` — dossier library, unchanged from the kit.
 - `screenshots/` — see the blocker note below.
 - `out/` — local build output from the last run (board, data, dashboard,
